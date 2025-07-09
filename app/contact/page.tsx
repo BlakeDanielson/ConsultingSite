@@ -64,11 +64,11 @@ export default function ContactPage() {
         <div className="container mx-auto max-w-4xl relative z-10">
           <div className="text-center space-y-6">
             <h1 className="text-4xl md:text-6xl font-bold tracking-tight text-glow">
-              Let's Build Something{" "}
+              Let&apos;s Build Something{" "}
               <span className="gradient-text">Extraordinary Together</span>
             </h1>
             <p className="text-xl md:text-2xl text-muted-foreground max-w-3xl mx-auto leading-relaxed">
-              Ready to transform your business? We're here to help you achieve breakthrough results. Get in touch to start your journey.
+              Ready to transform your business? We&apos;re here to help you achieve breakthrough results. Get in touch to start your journey.
             </p>
           </div>
         </div>
@@ -148,7 +148,7 @@ export default function ContactPage() {
               </CardHeader>
               <CardContent>
                 <p className="text-muted-foreground mb-6">
-                  Tell us about your project and we'll get back to you within 24 hours.
+                  Tell us about your project and we&apos;ll get back to you within 24 hours.
                 </p>
                 <Button 
                   variant="outline" 
@@ -182,7 +182,7 @@ export default function ContactPage() {
                 </div>
                 <h3 className="text-2xl font-bold mb-4 text-green-600">Message Sent Successfully!</h3>
                 <p className="text-muted-foreground mb-6">
-                  Thank you for reaching out. We'll get back to you within 24 hours.
+                  Thank you for reaching out. We&apos;ll get back to you within 24 hours.
                 </p>
                 <Button className="btn-primary">
                   <Link href="/strategy-session">Book Your Free Strategy Session</Link>
@@ -373,7 +373,7 @@ export default function ContactPage() {
         <div className="container mx-auto max-w-4xl text-center">
           <h2 className="text-3xl font-bold mb-8">Ready to Transform Your Business?</h2>
           <p className="text-lg text-muted-foreground mb-8 leading-relaxed">
-            Don't let another day pass without taking action. Your competitors aren't waiting, and neither should you. Let's build something extraordinary together.
+            Don&apos;t let another day pass without taking action. Your competitors aren&apos;t waiting, and neither should you. Let&apos;s build something extraordinary together.
           </p>
           <div className="flex flex-col sm:flex-row gap-6 justify-center">
             <Button size="lg" className="btn-primary text-lg px-8 py-6 h-auto">

@@ -1,5 +1,5 @@
 import { Button } from "@/components/ui/button"
-import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"
+import { Card, CardContent } from "@/components/ui/card"
 import { Header } from "@/components/Header"
 import Link from "next/link"
 
@@ -18,7 +18,7 @@ export default function ResultsPage() {
               <span className="gradient-text">Real Businesses</span>
             </h1>
             <p className="text-xl md:text-2xl text-muted-foreground max-w-3xl mx-auto leading-relaxed">
-              See how we've helped growing businesses break through barriers and achieve sustainable growth
+              See how we&apos;ve helped growing businesses break through barriers and achieve sustainable growth
             </p>
           </div>
         </div>
@@ -28,7 +28,7 @@ export default function ResultsPage() {
       <section className="py-16 px-4">
         <div className="container mx-auto max-w-6xl">
           <div className="text-center mb-12">
-            <h2 className="text-3xl font-bold mb-6">The Numbers Don't Lie</h2>
+            <h2 className="text-3xl font-bold mb-6">The Numbers Don&apos;t Lie</h2>
             <p className="text-lg text-muted-foreground">
               Measurable impact across key business metrics
             </p>
@@ -224,7 +224,7 @@ export default function ResultsPage() {
           <div className="text-center mb-12">
             <h2 className="text-3xl font-bold mb-6">What Our Clients Say</h2>
             <p className="text-lg text-muted-foreground">
-              Hear from business leaders who've transformed their operations
+              Hear from business leaders who&apos;ve transformed their operations
             </p>
           </div>
           
@@ -241,9 +241,9 @@ export default function ResultsPage() {
                   </div>
                 </div>
                 <blockquote className="text-muted-foreground italic leading-relaxed">
-                  "The partnership approach was exactly what we needed. We got both the strategic vision and the 
-                  technical execution. Our production efficiency increased by 67% in just 8 months, and we're 
-                  now taking on contracts we never could have handled before."
+                  &ldquo;The partnership approach was exactly what we needed. We got both the strategic vision and the 
+                  technical execution. Our production efficiency increased by 67% in just 8 months, and we&apos;re 
+                  now taking on contracts we never could have handled before.&rdquo;
                 </blockquote>
               </CardContent>
             </Card>
@@ -260,9 +260,9 @@ export default function ResultsPage() {
                   </div>
                 </div>
                 <blockquote className="text-muted-foreground italic leading-relaxed">
-                  "Finally, consultants who actually understand our business. They didn't just give us a report - 
+                  &ldquo;Finally, consultants who actually understand our business. They didn&apos;t just give us a report - 
                   they worked alongside us to implement real solutions. Our project margins improved by 23% 
-                  and we're completing projects ahead of schedule."
+                  and we&apos;re completing projects ahead of schedule.&rdquo;
                 </blockquote>
               </CardContent>
             </Card>
@@ -279,9 +279,9 @@ export default function ResultsPage() {
                   </div>
                 </div>
                 <blockquote className="text-muted-foreground italic leading-relaxed">
-                  "The AI implementation was seamless and practical. No complex systems we couldn't understand - 
-                  just solutions that made sense for our business. We're now competing with companies 10x our size 
-                  and winning contracts we never thought possible."
+                  &ldquo;The AI implementation was seamless and practical. No complex systems we couldn&apos;t understand - 
+                  just solutions that made sense for our business. We&apos;re now competing with companies 10x our size 
+                  and winning contracts we never thought possible.&rdquo;
                 </blockquote>
               </CardContent>
             </Card>
@@ -298,9 +298,9 @@ export default function ResultsPage() {
                   </div>
                 </div>
                 <blockquote className="text-muted-foreground italic leading-relaxed">
-                  "What impressed me most was their commitment to our success. They didn't disappear after 
+                  &ldquo;What impressed me most was their commitment to our success. They didn&apos;t disappear after 
                   implementation - they stayed involved until we achieved our goals. Our operational efficiency 
-                  increased by 89% and we're finally scalable."
+                  increased by 89% and we&apos;re finally scalable.&rdquo;
                 </blockquote>
               </CardContent>
             </Card>
