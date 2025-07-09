@@ -126,8 +126,8 @@ export function Header() {
 
       {/* Mobile Menu Overlay */}
       {isMobileMenuOpen && (
-        <div className="md:hidden fixed inset-0 top-16 z-50 bg-background/95 backdrop-blur-sm">
-          <div className="container mx-auto px-4 py-6">
+        <div className="md:hidden fixed inset-0 top-16 z-50 bg-background backdrop-blur-sm">
+          <div className="container mx-auto px-4 py-6 h-full bg-background border-t border-border">
             <nav className="flex flex-col space-y-4">
               {/* Services Section */}
               <div className="space-y-3">
