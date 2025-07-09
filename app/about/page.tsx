@@ -59,7 +59,7 @@ export default function AboutPage() {
             <Card className="card-hover p-8">
               <CardHeader className="text-center pb-6">
                 <div className="w-24 h-24 bg-gradient-to-br from-blue-500 to-purple-600 rounded-full mx-auto mb-4 flex items-center justify-center">
-                  <span className="text-2xl font-bold text-white">BT</span>
+                  <span className="text-2xl font-bold text-white">TK</span>
                 </div>
                 <CardTitle className="text-2xl">The Strategist</CardTitle>
                 <CardDescription className="text-muted-foreground">
@@ -98,7 +98,7 @@ export default function AboutPage() {
             <Card className="card-hover p-8">
               <CardHeader className="text-center pb-6">
                 <div className="w-24 h-24 bg-gradient-to-br from-purple-500 to-blue-600 rounded-full mx-auto mb-4 flex items-center justify-center">
-                  <span className="text-2xl font-bold text-white">AI</span>
+                  <span className="text-2xl font-bold text-white">BD</span>
                 </div>
                 <CardTitle className="text-2xl">The Innovator</CardTitle>
                 <CardDescription className="text-muted-foreground">
