@@ -1,140 +1,36 @@
-# BT Advising - Consulting Website
+This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
-A modern, professional consulting website built with Next.js, featuring a sleek dark theme inspired by Resend's design aesthetic.
+## Getting Started
 
-## 🚀 Overview
-
-BT Advising is a strategic consulting firm specializing in business growth, operational efficiency, sales optimization, and AI implementation for US businesses under 100 employees or $50M revenue.
-
-## 🛠️ Tech Stack
-
-- **Framework**: Next.js 14+ with TypeScript
-- **Styling**: Tailwind CSS + Shadcn/ui components
-- **Forms**: React Hook Form + Zod validation
-- **Email**: Resend integration
-- **Animations**: Framer Motion
-- **Deployment**: Vercel
-
-## 📁 Project Structure
-
-```
-ConsultingSite/
-├── cursor_docs/           # Project documentation
-├── my-app/               # Main Next.js application
-│   ├── app/             # App router pages
-│   │   ├── about/       # Partnership story
-│   │   ├── services/    # Service pages
-│   │   │   ├── business-growth/
-│   │   │   ├── operations/
-│   │   │   ├── sales/
-│   │   │   └── ai-implementation/
-│   │   └── strategy-session/  # Lead capture page
-│   ├── components/      # Reusable components
-│   └── public/         # Static assets
-└── README.md
-```
-
-## 🎨 Design Features
-
-- **Dark Theme**: Professional Resend-inspired aesthetic
-- **Responsive Design**: Mobile-first approach
-- **Smooth Animations**: Hover effects and transitions
-- **Modern Typography**: Clean, readable fonts
-- **Gradient Branding**: Blue-to-purple accent colors
-- **Glass Morphism**: Subtle backdrop blur effects
-
-## 🏃‍♂️ Getting Started
-
-1. **Clone the repository**
-   ```bash
-   git clone <repository-url>
-   cd ConsultingSite
-   ```
-
-2. **Navigate to the app directory**
-   ```bash
-   cd my-app
-   ```
-
-3. **Install dependencies**
-   ```bash
-   npm install
-   ```
-
-4. **Run the development server**
-   ```bash
-   npm run dev
-   ```
-
-5. **Open your browser**
-   Navigate to `http://localhost:3000` (or the port shown in terminal)
-
-## 📄 Pages
-
-### ✅ Completed Pages
-- **Homepage** (`/`) - Hero section, services overview, partnership teaser
-- **About** (`/about`) - Partnership story and approach
-- **Strategy Session** (`/strategy-session`) - Lead capture landing page
-- **Business Growth & Strategy** (`/services/business-growth`)
-- **Operations & Efficiency** (`/services/operations`)
-- **Sales & Revenue Optimization** (`/services/sales`)
-- **AI Implementation** (`/services/ai-implementation`)
-
-### 🚧 In Development
-- **Results/Case Studies** (`/results`) - Social proof and success stories
-- **Contact** (`/contact`) - Multiple communication options
-
-## 🎯 Key Features
-
-- **Lead Generation Focus**: Strategy session CTAs throughout
-- **Service Differentiation**: Four distinct service areas
-- **Partnership Positioning**: Equal partnership presentation
-- **Professional Credibility**: Business-focused messaging
-- **Conversion Optimization**: Clear value propositions and CTAs
-
-## 🔧 Development Commands
+First, run the development server:
 
 ```bash
-# Development server
 npm run dev
-
-# Build for production
-npm run build
-
-# Start production server
-npm start
-
-# Lint code
-npm run lint
+# or
+yarn dev
+# or
+pnpm dev
+# or
+bun dev
 ```
 
-## 📧 Contact & Lead Generation
+Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-The website is designed for lead generation through:
-- Free Strategy Session offers
-- Contact forms on service pages
-- Multiple touchpoints throughout the site
-- Professional positioning and credibility
+You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
 
-## 🚀 Deployment
+This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
 
-The site is configured for deployment on Vercel:
-1. Connect your GitHub repository to Vercel
-2. Configure environment variables if needed
-3. Deploy automatically on push to main branch
+## Learn More
 
-## 📝 Documentation
+To learn more about Next.js, take a look at the following resources:
 
-Comprehensive project documentation is available in the `cursor_docs/` directory:
-- Project roadmap and goals
-- Technical architecture decisions
-- Content framework and messaging
-- Development progress tracking
+- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
+- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
 
-## 🤝 Contributing
+You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
 
-This is a private consulting website project. For any questions or modifications, please contact the development team.
+## Deploy on Vercel
 
----
+The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
-**Built with ❤️ for BT Advising** 
+Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
