@@ -1,5 +1,5 @@
 import { Button } from "@/components/ui/button"
-import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
+import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"
 import { Header } from "@/components/Header"
 import Link from "next/link"
 
@@ -41,7 +41,7 @@ export default function BusinessGrowthPage() {
               </CardHeader>
               <CardContent>
                 <p className="text-muted-foreground">
-                  You've paid for strategic planning sessions that resulted in impressive binders that now sit on your shelf, unused and forgotten.
+                  You&apos;ve paid for strategic planning sessions that resulted in impressive binders that now sit on your shelf, unused and forgotten.
                 </p>
               </CardContent>
             </Card>
@@ -63,7 +63,7 @@ export default function BusinessGrowthPage() {
               </CardHeader>
               <CardContent>
                 <p className="text-muted-foreground">
-                  Revenue has stagnated, and the strategies that got you here aren't working to get you to the next level.
+                  Revenue has stagnated, and the strategies that got you here aren&apos;t working to get you to the next level.
                 </p>
               </CardContent>
             </Card>
@@ -90,7 +90,7 @@ export default function BusinessGrowthPage() {
                 <div>
                   <h3 className="font-semibold text-xl mb-3">Strategic Planning with Implementation Focus</h3>
                   <p className="text-muted-foreground leading-relaxed">
-                    We don't just create strategies - we build detailed implementation plans with clear ownership, timelines, and success metrics.
+                    We don&apos;t just create strategies - we build detailed implementation plans with clear ownership, timelines, and success metrics.
                   </p>
                 </div>
               </div>

@@ -1,5 +1,5 @@
 import { Button } from "@/components/ui/button"
-import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
+import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"
 import { Header } from "@/components/Header"
 import Link from "next/link"
 
@@ -63,7 +63,7 @@ export default function AIImplementationPage() {
               </CardHeader>
               <CardContent>
                 <p className="text-muted-foreground">
-                  You know AI is important for staying competitive, but you're concerned about falling behind while competitors gain an advantage.
+                  You know AI is important for staying competitive, but you&apos;re concerned about falling behind while competitors gain an advantage.
                 </p>
               </CardContent>
             </Card>
@@ -74,7 +74,7 @@ export default function AIImplementationPage() {
               </CardHeader>
               <CardContent>
                 <p className="text-muted-foreground">
-                  You can't see a clear path to measurable ROI from AI investments, making it difficult to justify the time and resources required.
+                  You can&apos;t see a clear path to measurable ROI from AI investments, making it difficult to justify the time and resources required.
                 </p>
               </CardContent>
             </Card>

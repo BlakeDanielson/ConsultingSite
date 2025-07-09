@@ -4,7 +4,6 @@ import { Input } from "@/components/ui/input"
 import { Label } from "@/components/ui/label"
 import { Textarea } from "@/components/ui/textarea"
 import { Header } from "@/components/Header"
-import Link from "next/link"
 
 export default function StrategySessionPage() {
   return (
@@ -36,7 +35,7 @@ export default function StrategySessionPage() {
             {/* Left Side - What You'll Discover */}
             <div className="space-y-8">
               <div>
-                <h2 className="text-3xl font-bold mb-6">What You'll Discover</h2>
+                <h2 className="text-3xl font-bold mb-6">What You&apos;ll Discover</h2>
                 <div className="space-y-6">
                   <div className="flex items-start gap-4">
                     <div className="flex-shrink-0 w-8 h-8 bg-blue-500 rounded-full flex items-center justify-center">
@@ -44,7 +43,7 @@ export default function StrategySessionPage() {
                     </div>
                     <div>
                       <h3 className="font-semibold text-lg mb-2">The #1 bottleneck limiting your growth</h3>
-                      <p className="text-muted-foreground">We'll identify the single biggest obstacle preventing your business from scaling efficiently.</p>
+                      <p className="text-muted-foreground">We&apos;ll identify the single biggest obstacle preventing your business from scaling efficiently.</p>
                     </div>
                   </div>
                   
@@ -109,7 +108,7 @@ export default function StrategySessionPage() {
                 <CardHeader className="pb-6">
                   <CardTitle className="text-2xl text-center">Book Your Free Strategy Session</CardTitle>
                   <CardDescription className="text-center text-muted-foreground">
-                    Fill out the form below and we'll contact you within 24 hours to schedule your session.
+                    Fill out the form below and we&apos;ll contact you within 24 hours to schedule your session.
                   </CardDescription>
                 </CardHeader>
                 <CardContent>
@@ -154,7 +153,7 @@ export default function StrategySessionPage() {
                     </div>
                     
                     <div className="space-y-2">
-                      <Label htmlFor="challenge">What's your biggest business challenge right now?</Label>
+                      <Label htmlFor="challenge">What&apos;s your biggest business challenge right now?</Label>
                       <Textarea 
                         id="challenge" 
                         placeholder="Describe your main challenge or goal..."

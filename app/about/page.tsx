@@ -88,7 +88,7 @@ export default function AboutPage() {
                 
                 <div className="pt-4 border-t border-border">
                   <p className="text-sm text-muted-foreground italic">
-                    "I've seen what works and what doesn't. My focus is on proven strategies that deliver real results, not theory."
+                    &ldquo;I&apos;ve seen what works and what doesn&apos;t. My focus is on proven strategies that deliver real results, not theory.&rdquo;
                   </p>
                 </div>
               </CardContent>
@@ -127,7 +127,7 @@ export default function AboutPage() {
                 
                 <div className="pt-4 border-t border-border">
                   <p className="text-sm text-muted-foreground italic">
-                    "Technology should serve the business, not the other way around. I focus on practical solutions that drive real ROI."
+                    &ldquo;Technology should serve the business, not the other way around. I focus on practical solutions that drive real ROI.&rdquo;
                   </p>
                 </div>
               </CardContent>
@@ -186,7 +186,7 @@ export default function AboutPage() {
                 </div>
                 <div>
                   <h3 className="font-semibold text-lg mb-2">Client Success Over Consulting Fees</h3>
-                  <p className="text-muted-foreground">Our success is measured by your results, not billable hours. We're invested in your long-term growth.</p>
+                  <p className="text-muted-foreground">Our success is measured by your results, not billable hours. We&apos;re invested in your long-term growth.</p>
                 </div>
               </div>
             </div>

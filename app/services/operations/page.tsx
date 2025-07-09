@@ -1,5 +1,5 @@
 import { Button } from "@/components/ui/button"
-import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
+import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"
 import { Header } from "@/components/Header"
 import Link from "next/link"
 
@@ -52,7 +52,7 @@ export default function OperationsPage() {
               </CardHeader>
               <CardContent>
                 <p className="text-muted-foreground">
-                  You lack real-time visibility into what's actually happening in your business, making it impossible to make data-driven decisions or identify problems early.
+                  You lack real-time visibility into what&apos;s actually happening in your business, making it impossible to make data-driven decisions or identify problems early.
                 </p>
               </CardContent>
             </Card>
@@ -63,7 +63,7 @@ export default function OperationsPage() {
               </CardHeader>
               <CardContent>
                 <p className="text-muted-foreground">
-                  Your operational systems can't handle growth, creating bottlenecks that slow down everything from customer service to product delivery.
+                  Your operational systems can&apos;t handle growth, creating bottlenecks that slow down everything from customer service to product delivery.
                 </p>
               </CardContent>
             </Card>

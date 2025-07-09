@@ -1,5 +1,5 @@
 import { Button } from "@/components/ui/button"
-import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
+import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"
 import { Header } from "@/components/Header"
 import Link from "next/link"
 
@@ -63,7 +63,7 @@ export default function SalesPage() {
               </CardHeader>
               <CardContent>
                 <p className="text-muted-foreground">
-                  Your CRM is either unused, poorly configured, or filled with outdated data that doesn't help drive sales decisions.
+                  Your CRM is either unused, poorly configured, or filled with outdated data that doesn&apos;t help drive sales decisions.
                 </p>
               </CardContent>
             </Card>
@@ -74,7 +74,7 @@ export default function SalesPage() {
               </CardHeader>
               <CardContent>
                 <p className="text-muted-foreground">
-                  You can't accurately forecast revenue, making it difficult to make strategic decisions or secure financing for growth.
+                  You can&apos;t accurately forecast revenue, making it difficult to make strategic decisions or secure financing for growth.
                 </p>
               </CardContent>
             </Card>

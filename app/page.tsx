@@ -41,7 +41,7 @@ export default function Home() {
               <ul className="space-y-6 text-lg">
                 <li className="flex items-start gap-4">
                   <span className="text-blue-400 mt-1 text-xl">✓</span>
-                  <span>You're growing but profits aren't keeping pace</span>
+                  <span>You&apos;re growing but profits aren&apos;t keeping pace</span>
                 </li>
                 <li className="flex items-start gap-4">
                   <span className="text-blue-400 mt-1 text-xl">✓</span>
@@ -53,11 +53,11 @@ export default function Home() {
                 </li>
                 <li className="flex items-start gap-4">
                   <span className="text-blue-400 mt-1 text-xl">✓</span>
-                  <span>You know technology could help but don't know where to start</span>
+                  <span>You know technology could help but don&apos;t know where to start</span>
                 </li>
                 <li className="flex items-start gap-4">
                   <span className="text-blue-400 mt-1 text-xl">✓</span>
-                  <span>You're working IN the business instead of ON the business</span>
+                  <span>You&apos;re working IN the business instead of ON the business</span>
                 </li>
               </ul>
             </div>
